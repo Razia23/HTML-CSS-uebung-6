@@ -1,0 +1,83 @@
+/**hier liegt die body bereich**/
+body {
+    background-image: url("https://media.istockphoto.com/id/174689749/photo/crystal-ball.jpg?s=612x612&w=is&k=20&c=KpjMoyyN4dI3y-sjE4IWUNfuPZuWZ_DwlzCh1rT0ZRg=");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*********/
+header {
+    background-color: rgba(147, 147, 250, 0.444);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    margin: 10px;
+}
+/*********/
+header div{
+    padding: 10px;
+}
+/*********/
+header div a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+/*********/
+header .input input {
+    width: 400px;
+    box-shadow: black 0px 0px 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+/*********/
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+    margin-left: 80px;
+}
+/*********/
+main {
+    padding: 10px;
+    margin: 10px;
+    height: 100vh;
+}
+/*********/
+main p{
+    padding: 15px;
+    margin: 15px;
+    overflow: auto;
+}
+/*********/
+main div {
+    background-color: rgba(234, 234, 245, 0.436);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    min-width: 80%;
+    min-height: 80%;
+}
+/*****hier habe ich den bilder feste breit gemacht****/
+main img {
+    width: 120px;
+    height: 120px;
+    padding: 5px;
+    margin: 8px;
+    box-shadow: 0px 0px 15px darkblue;
+}
+/*********/
+footer {
+    background-color: rgba(151, 151, 249, 0.444);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px black;
+    padding: 10px;
+    margin: 10px;
+}
+/*********/
+footer p{
+    padding: 5px;
+    margin: 4px;
+}

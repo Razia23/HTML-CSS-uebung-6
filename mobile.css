@@ -1,0 +1,89 @@
+/***********/
+/*********/
+@media screen and (max-width:799px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    /*********/
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    /*********/
+    header div {
+        padding: 10px;
+        margin-top: 20%;
+    }
+
+    /*********/
+    header img {
+        margin-top: 10%;
+    }
+
+    /*********/
+    header .input {
+        width: 100%;
+        text-align: center;
+    }
+
+    /**** diese feld hat 3 spalte für sich bei der
+hilfe grid-column-end=span 3*****/
+    main .feld-1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    /**** Ich habe hier den felder max height*****/
+    /***und noch overflow auto gemacht, um die elemente
+gut anpassen.******/
+    main .feld-1,
+    main .feld-2,
+    main .feld-3,
+    main .feld-4,
+    main .feld-5 {
+        max-height: 150px;
+        overflow: auto;
+    }
+
+    /***diese feld hat 3 spalte für sich bei der
+    hilfe grid-column-end=span 3*******/
+    main .feld-5 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: span 3;
+    }
+
+    /*********/
+    footer {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    /*********/
+    footer div {
+        background-color: rgba(155, 155, 255, 0.703);
+        padding: 10px;
+        margin: 10px;
+    }
+
+    /****die img haben display-flex
+    und die steht im anfang den div.*****/
+    footer .img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+}

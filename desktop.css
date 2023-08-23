@@ -1,0 +1,109 @@
+@media screen and (min-width:800px) {
+   header {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 10px;
+    margin: 10px;
+   }
+   header .a{
+    background-color: rgba(155, 155, 255, 0.703);
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 200px;
+    margin-top: 10%;
+    max-width: 100px;
+    margin-left: 30px;
+  
+    
+   }
+   header .a a{
+    text-decoration: none;
+    color:black;
+   }
+   header .input{
+    padding: 10px;
+    padding-top: 20px;
+    height: 40px;
+    border-radius:30px;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    background-color: rgba(218, 218, 246, 0.811);
+   }
+   
+    main {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 200px 200px 200px 400px;
+    }
+
+    main div {
+        box-shadow: 0px 0px 30px blue;
+    }
+
+    main .feld-1 {
+        grid-column-end: span 3;
+        background-image: radial-gradient(circle at center, gray, pink, red, white, lightgray);
+    }
+
+    main .feld-2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-column-start: 4;
+        grid-row-end: span 3;
+        background-image: radial-gradient(circle at center, skyblue, violet, pink, red);
+    }
+
+    main .feld-3 {
+        grid-column-start: 2;
+        grid-column-end: span 2;
+        grid-row-end: span 2;
+        background-image: linear-gradient(to left, blue, skyblue, yellow, white, green);
+    }
+
+    main .feld-4 {
+        background-image: radial-gradient(circle to center, skyblue, violet, pink, red);
+        grid-row-start: 2;
+    }
+
+    main .feld-5 {
+        background-image: conic-gradient(lightgray, violet, pink, skyblue, yellow, crimson, );
+        background-position: center center;
+        grid-row-start: 3;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    footer div {
+        background-color: rgba(155, 155, 255, 0.703);
+        padding: 10px;
+        margin: 10px;
+    }
+
+    footer .img {
+        grid-column-end: span 3;
+    }
+
+    footer .p {
+        grid-row-end: span 2;
+    }
+
+    footer .name {
+        grid-column-end: span 3;
+    }
+
+    footer .img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    footer .img img {
+        padding: 10px;
+
+    }
+}
